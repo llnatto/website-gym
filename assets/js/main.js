@@ -4,29 +4,14 @@ const navToggle = d.getElementById('nav-toggle'),
       navClose = d.getElementById('nav-close'),
       navMenu = d.getElementById('nav-menu')
 
-/* d.addEventListener('click', e =>{
+d.addEventListener('click', e =>{
   if(e.path[1] === navToggle){
     navMenu.classList.add('show-menu')
   }
   if(e.path[1] === navClose){
     navMenu.classList.remove('show-menu')
   }
-}) */
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu')
-    })
-}
-
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
-}
+})
 
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = d.querySelectorAll('.nav__link')

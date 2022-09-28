@@ -2,3 +2,6 @@
 *.txt
 
 *preview.png
+
+*.gitignore
+
